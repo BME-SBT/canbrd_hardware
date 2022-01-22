@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "LTD-4708G")(type "Legacy")(uri "${KIPRJMOD}/parts/LTD-470/LTD-4708G.lib")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2040")(type "Legacy")(uri "${KIPRJMOD}/parts/RP2040/MCU_RaspberryPi_RP2040.lib")(options "")(descr ""))
+  (lib (name "W25Q16JVSNIQ")(type "KiCad")(uri "${KIPRJMOD}/parts/W25Q16JVSNIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP2510")(type "KiCad")(uri "${KIPRJMOD}/parts/MCP2510.kicad_sym")(options "")(descr ""))
+  (lib (name "power_symbols")(type "KiCad")(uri "${KIPRJMOD}/parts/power_symbols.kicad_sym")(options "")(descr ""))
+)

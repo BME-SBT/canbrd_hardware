@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "canbrd_conn")(type "KiCad")(uri "${KIPRJMOD}/parts/canbrd_conn.pretty")(options "")(descr ""))
+  (lib (name "LTD-470")(type "KiCad")(uri "${KIPRJMOD}/parts/LTD-470")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/parts/RP2040")(options "")(descr ""))
+  (lib (name "PTS815-SJ")(type "KiCad")(uri "${KIPRJMOD}/parts/PTS815-SJ/PTS815-SJ.pretty")(options "")(descr ""))
+  (lib (name "Littelfuse-154")(type "KiCad")(uri "${KIPRJMOD}/parts/Littelfuse-154/Littelfuse-154.pretty")(options "")(descr ""))
+)
