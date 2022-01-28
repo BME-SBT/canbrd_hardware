@@ -1,4 +1,4 @@
-19806204659262015
+19812790661391736
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52107,6 +52107,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GTFH081x1YHR
+GTFH081x1YHR
+
+
+0
+12
+9
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -77573,6 +77580,13 @@ rotary encoder
 0
 5
 4
+SIC463
+CONV_SIC461ED-T1-GE3
+
+
+0
+32
+32
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -84517,6 +84531,20 @@ canbrd_conn
 0
 10
 10
+canbrd_conn
+NH0210x0xxxxG
+
+
+0
+2
+2
+canbrd_conn
+NH0810x0xxxxG
+
+
+0
+8
+8
 canbrd_conn
 NR1212x1xxxxG
 

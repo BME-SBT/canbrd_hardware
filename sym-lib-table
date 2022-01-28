@@ -4,4 +4,6 @@
   (lib (name "W25Q16JVSNIQ")(type "KiCad")(uri "${KIPRJMOD}/parts/W25Q16JVSNIQ.kicad_sym")(options "")(descr ""))
   (lib (name "MCP2510")(type "KiCad")(uri "${KIPRJMOD}/parts/MCP2510.kicad_sym")(options "")(descr ""))
   (lib (name "power_symbols")(type "KiCad")(uri "${KIPRJMOD}/parts/power_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "AP6230xWU")(type "KiCad")(uri "${KIPRJMOD}/parts/AP6230xWU.kicad_sym")(options "")(descr ""))
+  (lib (name "SIC461ED-T1-GE3")(type "Legacy")(uri "${KIPRJMOD}/parts/SIC463/SIC461ED-T1-GE3.lib")(options "")(descr ""))
 )
