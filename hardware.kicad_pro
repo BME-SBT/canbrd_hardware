@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,37 @@
           "width": 0.8
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|132949999|50625001|42bde9c4-0b85-4118-a2d9-417348014229|e83e0227-ac0f-4180-82bd-68d3a7b56476",
+        "courtyards_overlap|152949999|50625001|851ab59d-1fd7-45c7-a775-29797327cafc|cc42285d-e5b0-450b-ad46-b9ca27c6c5ee",
+        "silk_over_copper|125200000|56585000|5a092e90-94de-47c2-9927-70ba208e7c04|6e022fea-f742-491e-b9d9-909380f7ce5d",
+        "silk_over_copper|127456000|60300000|5a092e90-94de-47c2-9927-70ba208e7c04|d1fc9034-bf29-47a4-acf2-d6f8ccb35115",
+        "silk_over_copper|127456000|60300000|8162ff1e-dfaa-4d86-b090-962a0005a4b1|d1fc9034-bf29-47a4-acf2-d6f8ccb35115",
+        "silk_over_copper|129488000|60300000|5a092e90-94de-47c2-9927-70ba208e7c04|d636f59d-5445-4e77-abec-26004092c5c0",
+        "silk_over_copper|129488000|60300000|8162ff1e-dfaa-4d86-b090-962a0005a4b1|d636f59d-5445-4e77-abec-26004092c5c0",
+        "silk_over_copper|131520000|60300000|5a092e90-94de-47c2-9927-70ba208e7c04|7316edc5-2ec4-4449-a16c-4612281e4501",
+        "silk_over_copper|131520000|60300000|8162ff1e-dfaa-4d86-b090-962a0005a4b1|7316edc5-2ec4-4449-a16c-4612281e4501",
+        "silk_over_copper|132800000|59125000|5a092e90-94de-47c2-9927-70ba208e7c04|d8bc7017-17da-41c9-9fce-7a134e98b3c5",
+        "silk_over_copper|132800000|59125000|8162ff1e-dfaa-4d86-b090-962a0005a4b1|d8bc7017-17da-41c9-9fce-7a134e98b3c5",
+        "silk_over_copper|145200000|56585000|646d9e91-59b4-4865-a2fc-29780ed32563|5044ab84-2363-4c0f-9ff1-d67cf7a6d1c9",
+        "silk_over_copper|147456000|60300000|3559e287-424e-4397-b080-77c7ba6f395b|e89786ec-fbab-4605-9efa-90d162b239e8",
+        "silk_over_copper|147456000|60300000|646d9e91-59b4-4865-a2fc-29780ed32563|e89786ec-fbab-4605-9efa-90d162b239e8",
+        "silk_over_copper|149488000|60300000|3559e287-424e-4397-b080-77c7ba6f395b|7f9d5617-638e-4bc1-985e-75c353855717",
+        "silk_over_copper|149488000|60300000|646d9e91-59b4-4865-a2fc-29780ed32563|7f9d5617-638e-4bc1-985e-75c353855717",
+        "silk_over_copper|151520000|60300000|3559e287-424e-4397-b080-77c7ba6f395b|1a33935f-cfd0-49d0-9c75-fa8436e79007",
+        "silk_over_copper|151520000|60300000|646d9e91-59b4-4865-a2fc-29780ed32563|1a33935f-cfd0-49d0-9c75-fa8436e79007",
+        "silk_over_copper|152800000|59125000|3559e287-424e-4397-b080-77c7ba6f395b|37ee0835-b444-4086-9c2d-b5d3e22f674d",
+        "silk_over_copper|152800000|59125000|646d9e91-59b4-4865-a2fc-29780ed32563|37ee0835-b444-4086-9c2d-b5d3e22f674d",
+        "silk_overlap|127351429|51015000|5e801758-5d81-4871-8dea-e78ea08d09bf|62fee58a-5a4b-4f7e-a7db-a7ec2266b4f3",
+        "silk_overlap|130851429|51015000|5e801758-5d81-4871-8dea-e78ea08d09bf|39243d70-affd-49ec-862f-024c1a45fba5",
+        "silk_overlap|132800000|51015000|5e801758-5d81-4871-8dea-e78ea08d09bf|5a092e90-94de-47c2-9927-70ba208e7c04",
+        "silk_overlap|145200000|51015000|25c3bcaf-5355-44c6-80f6-5a39fc38e90b|646d9e91-59b4-4865-a2fc-29780ed32563",
+        "silk_overlap|147148571|51002565|99030c03-63b4-49ba-b5ab-4d56974f7963|25c3bcaf-5355-44c6-80f6-5a39fc38e90b",
+        "silk_overlap|147351429|51002565|99030c03-63b4-49ba-b5ab-4d56974f7963|25c3bcaf-5355-44c6-80f6-5a39fc38e90b",
+        "silk_overlap|150588061|51015000|87c78429-be2b-40ed-8d3b-56cb9666a56f|25c3bcaf-5355-44c6-80f6-5a39fc38e90b",
+        "silk_overlap|150851429|51002565|87c78429-be2b-40ed-8d3b-56cb9666a56f|25c3bcaf-5355-44c6-80f6-5a39fc38e90b",
+        "silk_overlap|152800000|51015000|646d9e91-59b4-4865-a2fc-29780ed32563|25c3bcaf-5355-44c6-80f6-5a39fc38e90b"
+      ],
       "meta": {
         "version": 2
       },
@@ -126,12 +156,15 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.3,
         0.4,
         0.5,
         0.6,
+        0.8,
         1.0,
         1.2,
+        1.6,
         2.0
       ],
       "via_dimensions": [
@@ -361,7 +394,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -372,9 +405,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
+      "10132328",
       "canbrd_conn",
       "GTFH081x1YHR",
-      "PTS815-SJ"
+      "MAX17634",
+      "PTS815-SJ",
+      "TSOT26"
     ],
     "pinned_symbol_libs": []
   },
@@ -412,7 +448,29 @@
         "microvia_drill": 0.1,
         "name": "Fieldpwr",
         "nets": [
-          "/Connectors/Field24V"
+          "/Connectors/Field24V",
+          "/Power/Fused24V"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.8,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/Connectors/USB+",
+          "/Connectors/USB-"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -436,7 +494,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "solar_frame.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -511,7 +569,7 @@
     ],
     [
       "d68b0b39-6911-4620-934d-eac0f6c0c2ec",
-      "SD+EEPROM"
+      "SD"
     ],
     [
       "037002cd-3c31-4880-ae16-1328e9fa32a1",

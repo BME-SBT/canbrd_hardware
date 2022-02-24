@@ -6,4 +6,8 @@
   (lib (name "Littelfuse-154")(type "KiCad")(uri "${KIPRJMOD}/parts/Littelfuse-154/Littelfuse-154.pretty")(options "")(descr ""))
   (lib (name "GTFH081x1YHR")(type "KiCad")(uri "${KIPRJMOD}/parts/GTFH081x1YHR/GTFH081x1YHR.pretty")(options "")(descr ""))
   (lib (name "SIC463")(type "KiCad")(uri "${KIPRJMOD}/parts/SIC463")(options "")(descr ""))
+  (lib (name "10132328")(type "KiCad")(uri "${KIPRJMOD}/parts/10132328/10132328.pretty")(options "")(descr ""))
+  (lib (name "TBU-CA")(type "KiCad")(uri "${KIPRJMOD}/parts/TBU-CA")(options "")(descr ""))
+  (lib (name "MAX17634")(type "KiCad")(uri "${KIPRJMOD}/parts/MAX17634")(options "")(descr ""))
+  (lib (name "TSOT26")(type "KiCad")(uri "${KIPRJMOD}/parts/TSOT26.pretty")(options "")(descr ""))
 )

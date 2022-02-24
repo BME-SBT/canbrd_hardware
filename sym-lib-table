@@ -6,4 +6,6 @@
   (lib (name "power_symbols")(type "KiCad")(uri "${KIPRJMOD}/parts/power_symbols.kicad_sym")(options "")(descr ""))
   (lib (name "AP6230xWU")(type "KiCad")(uri "${KIPRJMOD}/parts/AP6230xWU.kicad_sym")(options "")(descr ""))
   (lib (name "SIC461ED-T1-GE3")(type "Legacy")(uri "${KIPRJMOD}/parts/SIC463/SIC461ED-T1-GE3.lib")(options "")(descr ""))
+  (lib (name "TBU-CA065-200-WH")(type "Legacy")(uri "${KIPRJMOD}/parts/TBU-CA/TBU-CA065-200-WH.lib")(options "")(descr ""))
+  (lib (name "MAX17634BATP_")(type "KiCad")(uri "${KIPRJMOD}/parts/MAX17634/MAX17634BATP_.kicad_sym")(options "")(descr ""))
 )
