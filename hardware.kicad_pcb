@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "[canbrd] CAN/RS485 IO board")
-    (date "2022-01-28")
-    (rev "Indev")
+    (date "2022-02-24")
+    (rev "1.0")
   )
 
   (layers
