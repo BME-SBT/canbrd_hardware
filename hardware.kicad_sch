@@ -88,10 +88,10 @@
     )
   )
 
-  (bus_alias "SPI" (members "MOSI" "MISO" "SCK"))
-  (bus_alias "USB" (members "USB+" "USB-"))
-  (bus_alias "I^{2}C" (members "SDA" "SCL"))
   (bus_alias "CAN" (members "CANH" "CANL"))
+  (bus_alias "I^{2}C" (members "SDA" "SCL"))
+  (bus_alias "USB" (members "USB+" "USB-"))
+  (bus_alias "SPI" (members "MOSI" "MISO" "SCK"))
   (junction (at 133.35 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 1f4486c4-2232-4909-9d94-1920e212fe63)
   )
@@ -1753,7 +1753,7 @@
       (reference "SW2") (unit 1) (value "RESET") (footprint "PTS815-SJ:PTS815-SJ")
     )
     (path "/3dc34502-bd7b-41fa-9b71-f2aa9b31f6f8/829bee56-f35d-4439-9041-b34a56cc5a7e"
-      (reference "SW3") (unit 1) (value "SW_DIP_x08") (footprint "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_Omron_A6H-8101_W6.15mm_P1.27mm")
+      (reference "SW3") (unit 1) (value "SW_DIP_x08") (footprint "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_KingTek_DSHP08TS_W7.62mm_P1.27mm")
     )
     (path "/3dc34502-bd7b-41fa-9b71-f2aa9b31f6f8/c0f5fdc3-e794-4956-b4fa-4abf16d79851"
       (reference "SW4") (unit 1) (value "User") (footprint "PTS815-SJ:PTS815-SJ")
@@ -1776,23 +1776,26 @@
     (path "/3dc34502-bd7b-41fa-9b71-f2aa9b31f6f8/913bceb5-700d-4976-97e8-fd6325ab7c4a"
       (reference "U6") (unit 1) (value "157119S12801") (footprint "Display_7Segment:Sx39-1xxxxx")
     )
+    (path "/3dc34502-bd7b-41fa-9b71-f2aa9b31f6f8/048c3bc1-c7fd-42bb-a73f-312be6c06df5"
+      (reference "U7") (unit 1) (value "DC56-11CGKWA") (footprint "Display_7Segment:DA56-11CGKWA")
+    )
     (path "/3dc34502-bd7b-41fa-9b71-f2aa9b31f6f8/bbb84b9c-8aa8-4ece-b9f5-8f68e16bf707"
-      (reference "U7") (unit 1) (value "157119S12801") (footprint "Display_7Segment:Sx39-1xxxxx")
+      (reference "U8") (unit 1) (value "157119S12801") (footprint "Display_7Segment:Sx39-1xxxxx")
     )
     (path "/c8f94435-2da2-4810-971f-0c253976dcd9/d158df8f-204e-46b7-b9ca-25825735de87"
-      (reference "U8") (unit 1) (value "ATtiny427") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U9") (unit 1) (value "ATtiny427") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/c8f94435-2da2-4810-971f-0c253976dcd9/94ef5ce1-7c14-441f-b6bd-da94721b87a8/ec509e18-13b6-4844-b945-76b59ff87e52"
-      (reference "U9") (unit 1) (value "ULN2003A") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
-    )
-    (path "/c8f94435-2da2-4810-971f-0c253976dcd9/94ef5ce1-7c14-441f-b6bd-da94721b87a8/5376ec75-d90a-42d8-b319-6393d6c2cb06"
       (reference "U10") (unit 1) (value "ULN2003A") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
+    (path "/c8f94435-2da2-4810-971f-0c253976dcd9/94ef5ce1-7c14-441f-b6bd-da94721b87a8/5376ec75-d90a-42d8-b319-6393d6c2cb06"
+      (reference "U11") (unit 1) (value "ULN2003A") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+    )
     (path "/037002cd-3c31-4880-ae16-1328e9fa32a1/fd68694f-e998-4c8f-9173-18232190b392"
-      (reference "U11") (unit 1) (value "MAX17634BATP+") (footprint "MAX17634:TQFN20-EP")
+      (reference "U12") (unit 1) (value "MAX17634BATP+") (footprint "MAX17634:TQFN20-EP")
     )
     (path "/037002cd-3c31-4880-ae16-1328e9fa32a1/3ba4ea8a-ccd0-4667-995e-bfa909a0ca3d"
-      (reference "U12") (unit 1) (value "AP62250WU") (footprint "TSOT26:TSOT26")
+      (reference "U13") (unit 1) (value "AP62250WU") (footprint "TSOT26:TSOT26")
     )
     (path "/c027fa6b-8e6d-4e11-8804-979831dae8d5/f6df8f38-4efb-4a7f-8f49-a8d0018d348a"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
