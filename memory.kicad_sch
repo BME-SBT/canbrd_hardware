@@ -6,8 +6,8 @@
 
   (title_block
     (title "[canbrd] CAN/RS485 IO board")
-    (date "2022-03-18")
-    (rev "1.1")
+    (date "2022-04-03")
+    (rev "2.0")
   )
 
   (lib_symbols
@@ -339,7 +339,7 @@
   (symbol (lib_id "power:GND") (at 162.56 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4e9d89bd-4e6a-4b9f-9b02-a82b428457b6)
-    (property "Reference" "#PWR0105" (id 0) (at 162.56 149.86 0)
+    (property "Reference" "#PWR0115" (id 0) (at 162.56 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 162.56 147.32 0))
@@ -355,7 +355,7 @@
   (symbol (lib_id "power:+3.3V") (at 101.6 110.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6a1058e1-cd5a-4d6a-a0d3-f55b8cf79dd1)
-    (property "Reference" "#PWR0103" (id 0) (at 101.6 114.3 0)
+    (property "Reference" "#PWR0113" (id 0) (at 101.6 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 101.6 106.68 0))
@@ -371,7 +371,7 @@
   (symbol (lib_id "power:GND") (at 101.6 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a8b2845-01c3-45b5-b296-2b62dfb9e1d9)
-    (property "Reference" "#PWR0104" (id 0) (at 101.6 149.86 0)
+    (property "Reference" "#PWR0114" (id 0) (at 101.6 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 101.6 147.32 0))
@@ -387,7 +387,7 @@
   (symbol (lib_id "Connector:Micro_SD_Card") (at 139.7 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e8ff5aa1-c73d-405b-ae17-444be3e4dae0)
-    (property "Reference" "J3" (id 0) (at 140.335 105.41 0))
+    (property "Reference" "J2" (id 0) (at 140.335 105.41 0))
     (property "Value" "Micro_SD_Card" (id 1) (at 140.335 107.95 0))
     (property "Footprint" "GTFH081x1YHR:GTFH081x1YHR" (id 2) (at 168.91 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
