@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -441,6 +441,7 @@
       "10132328",
       "canbrd_conn",
       "GTFH081x1YHR",
+      "LB-402",
       "Littelfuse-154",
       "MAX17634",
       "PTS815-SJ",
@@ -583,6 +584,10 @@
     [
       "1c4e2cc3-1e5c-4915-8731-7fa81de8c0b1",
       "CAN"
+    ],
+    [
+      "d26c65e4-c38d-4abf-a0cf-d0d801f86a26",
+      "CAN Isolation"
     ],
     [
       "3dc34502-bd7b-41fa-9b71-f2aa9b31f6f8",

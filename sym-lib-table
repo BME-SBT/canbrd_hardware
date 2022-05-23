@@ -9,5 +9,6 @@
   (lib (name "TBU-CA065-200-WH")(type "Legacy")(uri "${KIPRJMOD}/parts/TBU-CA/TBU-CA065-200-WH.lib")(options "")(descr ""))
   (lib (name "MAX17634BATP_")(type "KiCad")(uri "${KIPRJMOD}/parts/MAX17634/MAX17634BATP_.kicad_sym")(options "")(descr ""))
   (lib (name "HDSM-293L")(type "KiCad")(uri "${KIPRJMOD}/parts/HDSM-293L.kicad_sym")(options "")(descr ""))
-  (lib (name "TPCP8110")(type "KiCad")(uri "/home/lord/DEV/kicad/beaglelogic-vref/parts/TPCP8110.kicad_sym")(options "")(descr ""))
+  (lib (name "TPCP8110")(type "KiCad")(uri "${KIPRJMOD}/parts/TPCP8110.kicad_sym")(options "")(descr ""))
+  (lib (name "RFM-0505S")(type "Legacy")(uri "${KIPRJMOD}/parts/RFM-0505S/RFM-0505S.lib")(options "")(descr ""))
 )

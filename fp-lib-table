@@ -12,4 +12,6 @@
   (lib (name "TSOT26")(type "KiCad")(uri "${KIPRJMOD}/parts/TSOT26.pretty")(options "")(descr ""))
   (lib (name "TPCP8110")(type "KiCad")(uri "${KIPRJMOD}/parts/TPCP8110.pretty")(options "")(descr ""))
   (lib (name "HDSM-293L")(type "KiCad")(uri "${KIPRJMOD}/parts/HDSM-293L.pretty")(options "")(descr ""))
+  (lib (name "RFM-0505S")(type "KiCad")(uri "${KIPRJMOD}/parts/RFM-0505S")(options "")(descr ""))
+  (lib (name "LB-402")(type "KiCad")(uri "${KIPRJMOD}/parts/LB-402.pretty")(options "")(descr ""))
 )
