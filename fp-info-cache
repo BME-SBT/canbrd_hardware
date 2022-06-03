@@ -1,4 +1,4 @@
-20203539072398474
+20208465356048640
 10132328
 10132328
 
@@ -56347,8 +56347,8 @@ LB-402
 
 
 0
-0
-0
+18
+18
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -85610,6 +85610,13 @@ NH0210x0xxxxG
 2
 2
 canbrd_conn
+NH0310x0xxxxG
+
+
+0
+3
+3
+canbrd_conn
 NH0810x0xxxxG
 
 
@@ -85630,3 +85637,17 @@ RJ45 8p8c dual ethernet cat5
 0
 18
 17
+sbt_logo
+logo_outline
+
+
+0
+0
+0
+sbt_logo
+logo_small_3
+
+
+0
+0
+0

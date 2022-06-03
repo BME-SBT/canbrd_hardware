@@ -14,4 +14,5 @@
   (lib (name "HDSM-293L")(type "KiCad")(uri "${KIPRJMOD}/parts/HDSM-293L.pretty")(options "")(descr ""))
   (lib (name "RFM-0505S")(type "KiCad")(uri "${KIPRJMOD}/parts/RFM-0505S")(options "")(descr ""))
   (lib (name "LB-402")(type "KiCad")(uri "${KIPRJMOD}/parts/LB-402.pretty")(options "")(descr ""))
+  (lib (name "sbt_logo")(type "KiCad")(uri "${KIPRJMOD}/parts/sbt_logo.pretty")(options "")(descr ""))
 )
