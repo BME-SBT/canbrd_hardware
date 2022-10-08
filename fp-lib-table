@@ -15,4 +15,7 @@
   (lib (name "RFM-0505S")(type "KiCad")(uri "${KIPRJMOD}/parts/RFM-0505S")(options "")(descr ""))
   (lib (name "LB-402")(type "KiCad")(uri "${KIPRJMOD}/parts/LB-402.pretty")(options "")(descr ""))
   (lib (name "sbt_logo")(type "KiCad")(uri "${KIPRJMOD}/parts/sbt_logo.pretty")(options "")(descr ""))
+  (lib (name "canbrd_hole")(type "KiCad")(uri "${KIPRJMOD}/parts/canbrd_hole.pretty")(options "")(descr ""))
+  (lib (name "keystone-3522")(type "KiCad")(uri "${KIPRJMOD}/parts/keystone-3522.pretty")(options "")(descr ""))
+  (lib (name "71922")(type "KiCad")(uri "${KIPRJMOD}/parts/71922.pretty")(options "")(descr ""))
 )

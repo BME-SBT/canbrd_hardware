@@ -29,9 +29,19 @@
   (pad "1" thru_hole circle (at -3.5 0) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask) (tstamp 5528bcad-2950-4673-90eb-c37e6952c475))
   (pad "2" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask) (tstamp 08a7c925-7fae-4530-b0c9-120e185cb318))
   (pad "3" thru_hole circle (at 3.5 0) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask) (tstamp f2c93195-af12-4d3e-acdf-bdd0ff675c24))
-  (model "${KIPRJMOD}/parts/canbrd_conn.pretty/pxc_1752117_02_SPTA-1-3-3-5_3D.stp"
+  (model "${KIPRJMOD}/parts/canbrd_conn.pretty/pxc_1752117_02_SPTA-1-3-3-5_3D.stp" hide
     (offset (xyz -3.25 12 -32.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
+  )
+  (model "${KIPRJMOD}/parts/canbrd_conn.pretty/pxc_1840379_05_MC-1-5-3-ST-3-5_3D.stp"
+    (offset (xyz -5.5 -6.3 10.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 0))
+  )
+  (model "${KIPRJMOD}/parts/canbrd_conn.pretty/pxc_1731484_04_MCV-1-5-3-G-3-5-RN_3D.stp"
+    (offset (xyz -5.6 -3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
