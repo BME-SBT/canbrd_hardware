@@ -517,8 +517,6 @@
       "TSOT26"
     ],
     "pinned_symbol_libs": [
-      "canbrd_conn",
-      "max11604",
       "power_symbols"
     ]
   },
