@@ -554,8 +554,7 @@
         "microvia_drill": 0.1,
         "name": "Fieldpwr",
         "nets": [
-          "/Connectors/Field24V",
-          "/Power/Fused24V"
+          "/Connectors/Field24V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
