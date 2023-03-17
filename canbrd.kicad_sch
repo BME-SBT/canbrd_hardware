@@ -146,10 +146,10 @@
     )
   )
 
-  (bus_alias "CAN" (members "CANH" "CANL"))
-  (bus_alias "SPI" (members "MOSI" "MISO" "SCK"))
-  (bus_alias "USB" (members "USB+" "USB-"))
   (bus_alias "I^{2}C" (members "SDA" "SCL"))
+  (bus_alias "USB" (members "USB+" "USB-"))
+  (bus_alias "SPI" (members "MOSI" "MISO" "SCK"))
+  (bus_alias "CAN" (members "CANH" "CANL"))
   (junction (at 132.08 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 7a3059df-7ac8-41f0-8bd4-3b1ece71bfbd)
   )
